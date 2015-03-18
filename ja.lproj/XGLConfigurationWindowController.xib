@@ -100,11 +100,11 @@ DQ
                         </connections>
                     </button>
                     <customView id="bme-ca-hk4" customClass="XGLSecondaryBox">
-                        <rect key="frame" x="0.0" y="61" width="442" height="48"/>
+                        <rect key="frame" x="-1" y="61" width="444" height="48"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <subviews>
                             <textField verticalHuggingPriority="750" id="DaF-K4-Vj2">
-                                <rect key="frame" x="30" y="15" width="92" height="17"/>
+                                <rect key="frame" x="31" y="15" width="92" height="17"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="ディスプレイ:" id="7Me-BR-g9y">
                                     <font key="font" size="13" name="HiraKakuProN-W6"/>
@@ -113,7 +113,7 @@ DQ
                                 </textFieldCell>
                             </textField>
                             <button id="u8h-aW-KjE">
-                                <rect key="frame" x="126" y="14" width="165" height="18"/>
+                                <rect key="frame" x="127" y="14" width="165" height="18"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="check" title="メインディスプレイのみ" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="3zT-RI-sS3">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>

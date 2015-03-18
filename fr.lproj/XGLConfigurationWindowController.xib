@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="7519.1" systemVersion="14C109" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" customObjectInstantitationMethod="direct">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="7525" systemVersion="14C109" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" customObjectInstantitationMethod="direct">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="7519.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="7525"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="XGLConfigurationWindowController">
@@ -97,11 +97,11 @@
                         </connections>
                     </button>
                     <customView id="bme-ca-hk4" customClass="XGLSecondaryBox">
-                        <rect key="frame" x="0.0" y="61" width="477" height="48"/>
+                        <rect key="frame" x="-1" y="61" width="479" height="48"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <subviews>
                             <textField verticalHuggingPriority="750" id="DaF-K4-Vj2">
-                                <rect key="frame" x="78" y="16" width="69" height="17"/>
+                                <rect key="frame" x="80" y="16" width="69" height="17"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Écrans :" id="7Me-BR-g9y">
                                     <font key="font" metaFont="systemBold"/>
@@ -110,7 +110,7 @@
                                 </textFieldCell>
                             </textField>
                             <button id="u8h-aW-KjE">
-                                <rect key="frame" x="151" y="15" width="197" height="18"/>
+                                <rect key="frame" x="153" y="15" width="197" height="18"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="check" title="Écran principal uniquement" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="3zT-RI-sS3">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>

@@ -88,7 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				F44593BF14E849BA0010ACFD /* C code */,
-				08FB77AFFE84173DC02AAC07 /* XEverywhere */,
+				08FB77AFFE84173DC02AAC07 /* Xeverywhere */,
 				089C167CFE841241C02AAC07 /* Resources */,
 				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
 				F506C53F0362D44501E82B62 /* Products */,
@@ -116,7 +116,7 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		08FB77AFFE84173DC02AAC07 /* XEverywhere */ = {
+		08FB77AFFE84173DC02AAC07 /* Xeverywhere */ = {
 			isa = PBXGroup;
 			children = (
 				F489C7651AA5A7C500768081 /* XGLUserDefaults+Constants.h */,
@@ -125,7 +125,7 @@
 				011787A4FFB612FBC0A80002 /* XGLEverywhereView.m */,
 				F4DFF8891AA39EFB006456EA /* Configuration */,
 			);
-			name = XEverywhere;
+			name = Xeverywhere;
 			sourceTree = "<group>";
 		};
 		1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */ = {

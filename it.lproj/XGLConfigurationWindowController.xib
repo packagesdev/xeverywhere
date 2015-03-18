@@ -100,11 +100,11 @@ DQ
                         </connections>
                     </button>
                     <customView id="bme-ca-hk4" customClass="XGLSecondaryBox">
-                        <rect key="frame" x="0.0" y="61" width="461" height="48"/>
+                        <rect key="frame" x="-1" y="61" width="463" height="48"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <subviews>
                             <textField verticalHuggingPriority="750" id="DaF-K4-Vj2">
-                                <rect key="frame" x="71" y="15" width="70" height="17"/>
+                                <rect key="frame" x="72" y="15" width="70" height="17"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Monitors:" id="7Me-BR-g9y">
                                     <font key="font" metaFont="systemBold"/>
@@ -113,7 +113,7 @@ DQ
                                 </textFieldCell>
                             </textField>
                             <button id="u8h-aW-KjE">
-                                <rect key="frame" x="145" y="14" width="179" height="18"/>
+                                <rect key="frame" x="146" y="14" width="179" height="18"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="check" title="Solo monitor principale" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="3zT-RI-sS3">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>

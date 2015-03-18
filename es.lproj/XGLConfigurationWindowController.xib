@@ -100,19 +100,11 @@ DQ
                         </connections>
                     </button>
                     <customView id="bme-ca-hk4" customClass="XGLSecondaryBox">
-                        <rect key="frame" x="0.0" y="61" width="501" height="48"/>
+                        <rect key="frame" x="-1" y="61" width="503" height="48"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <subviews>
-                            <button id="u8h-aW-KjE">
-                                <rect key="frame" x="185" y="14" width="166" height="18"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <buttonCell key="cell" type="check" title="Sólo pantalla principal" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="3zT-RI-sS3">
-                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                    <font key="font" metaFont="system"/>
-                                </buttonCell>
-                            </button>
                             <textField verticalHuggingPriority="750" id="DaF-K4-Vj2">
-                                <rect key="frame" x="106" y="15" width="75" height="17"/>
+                                <rect key="frame" x="107" y="15" width="75" height="17"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Pantallas:" id="7Me-BR-g9y">
                                     <font key="font" metaFont="systemBold"/>
@@ -120,6 +112,14 @@ DQ
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
+                            <button id="u8h-aW-KjE">
+                                <rect key="frame" x="186" y="14" width="166" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="check" title="Sólo pantalla principal" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="3zT-RI-sS3">
+                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                            </button>
                         </subviews>
                     </customView>
                     <button verticalHuggingPriority="750" id="uX0-ns-f76">
