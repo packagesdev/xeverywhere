@@ -64,7 +64,6 @@
 {
     NSString *tIdentifier = [[NSBundle bundleForClass:[self class]] bundleIdentifier];
     ScreenSaverDefaults *tDefaults = [ScreenSaverDefaults defaultsForModuleWithName:tIdentifier];
-    BOOL tBool;
     NSInteger tInteger;
     id tObject;
     
@@ -83,7 +82,7 @@
     
     // Main Screen Only
     
-    tBool=[tDefaults boolForKey:XGLUserDefaultsMainDisplayOnly];
+    BOOL tBool=[tDefaults boolForKey:XGLUserDefaultsMainDisplayOnly];
     
     [_mainScreenCheckBox setState:(tBool==YES) ? NSOnState : NSOffState];
 }
@@ -104,14 +103,10 @@
     static XGLAboutBoxWindowController * sAboutBoxWindowController=nil;
     
     if (sAboutBoxWindowController==nil)
-    {
         sAboutBoxWindowController=[XGLAboutBoxWindowController new];
-    }
     
     if ([sAboutBoxWindowController.window isVisible]==NO)
-    {
         [sAboutBoxWindowController.window center];
-    }
     
     [sAboutBoxWindowController.window makeKeyAndOrderFront:nil];
 }

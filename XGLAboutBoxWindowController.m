@@ -30,14 +30,11 @@
 
 - (void)windowDidLoad
 {
-    NSDictionary * tInfoDictionary;
-    NSBundle * tBundle;
-    
     [super windowDidLoad];
     
-    tBundle=[NSBundle bundleForClass:[self class]];
+    NSBundle * tBundle=[NSBundle bundleForClass:[self class]];
     
-    tInfoDictionary=[tBundle infoDictionary];
+    NSDictionary * tInfoDictionary=[tBundle infoDictionary];
     
     [_versionLabel setStringValue:[NSString stringWithFormat:NSLocalizedStringFromTableInBundle(@"Version %@ (%@)",@"Localizable",tBundle,@""),[tInfoDictionary objectForKey:@"CFBundleShortVersionString"],[tInfoDictionary objectForKey:@"CFBundleVersion"]]];
     
