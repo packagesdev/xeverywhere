@@ -113,7 +113,7 @@ DQ
                                 </textFieldCell>
                             </textField>
                             <button id="u8h-aW-KjE">
-                                <rect key="frame" x="172" y="14" width="133" height="18"/>
+                                <rect key="frame" x="172" y="14" width="140" height="18"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="check" title="Nur Hauptmonitor" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="3zT-RI-sS3">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
