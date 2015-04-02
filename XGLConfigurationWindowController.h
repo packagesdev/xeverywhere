@@ -15,6 +15,4 @@
 
 @interface XGLConfigurationWindowController : NSWindowController
 
-- (void)refreshSettings;
-
 @end

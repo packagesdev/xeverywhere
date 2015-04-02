@@ -262,11 +262,7 @@ static unsigned long frameCount;
     if (_configurationWindowController==nil)
         _configurationWindowController=[[XGLConfigurationWindowController alloc] init];
     
-    NSWindow * tWindow=_configurationWindowController.window;
-    
-    [_configurationWindowController refreshSettings];
-    
-    return tWindow;
+    return _configurationWindowController.window;
 }
 
 @end

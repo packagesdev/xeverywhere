@@ -56,12 +56,7 @@
         _numberFormatter.hasThousandSeparators=YES;
         _numberFormatter.localizesFormat=YES;
     }
-}
-
-#pragma mark -
-
-- (void)refreshSettings
-{
+    
     NSString *tIdentifier = [[NSBundle bundleForClass:[self class]] bundleIdentifier];
     ScreenSaverDefaults *tDefaults = [ScreenSaverDefaults defaultsForModuleWithName:tIdentifier];
     NSInteger tInteger;
@@ -87,11 +82,11 @@
     [_mainScreenCheckBox setState:(tBool==YES) ? NSOnState : NSOffState];
 }
 
+#pragma mark -
+
 - (IBAction)updateSubdivision:(id)sender
 {
-    NSUInteger tFaces;
-    
-    tFaces=6*pow(9,[sender integerValue]);
+    NSUInteger tFaces=6*pow(9,[sender integerValue]);
     
     NSString * tFormattedString=[_numberFormatter stringFromNumber:[NSNumber numberWithUnsignedInteger:tFaces]];
     
