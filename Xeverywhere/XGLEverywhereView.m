@@ -86,14 +86,14 @@ static unsigned long frameCount;
         
         if (tShowErrorMessage==YES)
         {
-            NSRect tFrame=[self frame];
+            NSRect tFrame=self.frame;
             
             NSMutableParagraphStyle * tMutableParagraphStyle=[[NSParagraphStyle defaultParagraphStyle] mutableCopy];
             [tMutableParagraphStyle setAlignment:NSCenterTextAlignment];
             
-            NSDictionary * tAttributes = [NSDictionary dictionaryWithObjectsAndKeys:[NSFont systemFontOfSize:[NSFont systemFontSize]],NSFontAttributeName,
-                                                                                    [NSColor whiteColor],NSForegroundColorAttributeName,
-                                                                                    tMutableParagraphStyle,NSParagraphStyleAttributeName,nil];
+			NSDictionary * tAttributes = @{NSFontAttributeName:[NSFont systemFontOfSize:[NSFont systemFontSize]],
+										   NSForegroundColorAttributeName:[NSColor whiteColor],
+										   NSParagraphStyleAttributeName:tMutableParagraphStyle};
             
             
             NSString * tString=NSLocalizedStringFromTableInBundle(@"Minimum OpenGL requirements\rfor this Screen Effect\rnot available\ron your graphic card.",@"Localizable",[NSBundle bundleForClass:[self class]],@"No comment");
@@ -114,22 +114,20 @@ static unsigned long frameCount;
 
 - (void) startAnimation
 {
-    NSString *tIdentifier = [[NSBundle bundleForClass:[self class]] bundleIdentifier];
+	NSString *tIdentifier = [[NSBundle bundleForClass:[self class]] bundleIdentifier];
     ScreenSaverDefaults *tDefaults = [ScreenSaverDefaults defaultsForModuleWithName:tIdentifier];
-    BOOL tBool;
-    id tObject;
-    NSInteger tSubdivisionsCount;
-    
+	
     _OpenGLIncompatibilityDetected=NO;
     
     [super startAnimation];
     
-    tBool=[tDefaults boolForKey:XGLUserDefaultsMainDisplayOnly];
+    BOOL tBool=[tDefaults boolForKey:XGLUserDefaultsMainDisplayOnly];
     
     if (tBool==YES && _mainScreen==NO)
         return;
-    
-    tObject=[tDefaults objectForKey:XGLUserDefaultsSubdivisionsCount];
+	
+	NSInteger tSubdivisionsCount;
+    id tObject=[tDefaults objectForKey:XGLUserDefaultsSubdivisionsCount];
     
     if (tObject!=nil)
         tSubdivisionsCount=[tDefaults integerForKey:XGLUserDefaultsSubdivisionsCount];
@@ -153,7 +151,14 @@ static unsigned long frameCount;
         _OpenGLIncompatibilityDetected=YES;
         return;
     }
-    _openGLView = [[NSOpenGLView alloc] initWithFrame:[self bounds] pixelFormat:tFormat];
+	
+	if (_openGLView!=nil)
+	{
+		[_openGLView removeFromSuperview];
+		_openGLView=nil;
+	}
+	
+	_openGLView = [[NSOpenGLView alloc] initWithFrame:self.bounds pixelFormat:tFormat];
     
     if (_openGLView!=nil)
     {
@@ -189,7 +194,7 @@ static unsigned long frameCount;
     
     [[_openGLView openGLContext] flushBuffer];
 
-    NSRect tPixelBounds=[_openGLView convertRectToBacking:[_openGLView bounds]];
+    NSRect tPixelBounds=[_openGLView convertRectToBacking:_openGLView.bounds];
     NSSize tSize=tPixelBounds.size;
     
     reshape((int) tSize.width, (int) tSize.height);
@@ -214,16 +219,8 @@ static unsigned long frameCount;
 	}
 #endif
     
-	if (_openGLView!=nil)
-    {
-        [[_openGLView openGLContext] makeCurrentContext];
-            
-        if (glIsList(_gs.gasket1))
-            glDeleteLists(_gs.gasket1, 1);
-    
-        [_openGLView removeFromSuperviewWithoutNeedingDisplay];
-        _openGLView=nil;
-    }
+	if (glIsList(_gs.gasket1))
+		glDeleteLists(_gs.gasket1, 1);
 }
 
 - (void) animateOneFrame
