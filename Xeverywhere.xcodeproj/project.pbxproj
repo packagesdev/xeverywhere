@@ -11,22 +11,22 @@
 		F473884415F7C4D3007DE8CD /* thumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F473884315F7C4D3007DE8CD /* thumbnail@2x.png */; };
 		F489C7671AA5A7C500768081 /* XGLUserDefaults+Constants.h in Headers */ = {isa = PBXBuildFile; fileRef = F489C7651AA5A7C500768081 /* XGLUserDefaults+Constants.h */; };
 		F489C7681AA5A7C500768081 /* XGLUserDefaults+Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = F489C7661AA5A7C500768081 /* XGLUserDefaults+Constants.m */; };
+		F489E0502137421A00D2665E /* XGLView.h in Headers */ = {isa = PBXBuildFile; fileRef = F489E04E2137421A00D2665E /* XGLView.h */; };
+		F489E0512137421A00D2665E /* XGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = F489E04F2137421A00D2665E /* XGLView.m */; };
 		F48BFD8B1ABA3977004053B3 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F48BFD8A1ABA3977004053B3 /* OpenGL.framework */; };
 		F48BFD8D1ABA397D004053B3 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F48BFD8C1ABA397D004053B3 /* ScreenSaver.framework */; };
 		F48BFD8F1ABA3982004053B3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F48BFD8E1ABA3982004053B3 /* Cocoa.framework */; };
+		F496EF3D213896660076A882 /* XGLAboutBoxWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F496EF3C213896660076A882 /* XGLAboutBoxWindowController.xib */; };
 		F4DD287D09A7BB6900824E1D /* XGLEverywhereView.m in Sources */ = {isa = PBXBuildFile; fileRef = 011787A4FFB612FBC0A80002 /* XGLEverywhereView.m */; settings = {ATTRIBUTES = (); }; };
 		F4DD287E09A7BB6900824E1D /* xGLeverywhere.c in Sources */ = {isa = PBXBuildFile; fileRef = 011787A5FFB612FBC0A80002 /* xGLeverywhere.c */; settings = {ATTRIBUTES = (); COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F4DF0F431AA6864E001ABB6E /* XGLConfigurationWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4DF0F411AA6864E001ABB6E /* XGLConfigurationWindowController.xib */; };
 		F4DF0F461AA6866E001ABB6E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4DF0F441AA6866E001ABB6E /* Localizable.strings */; };
 		F4DFF8851AA39B1A006456EA /* XGLConfigurationWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4DFF8831AA39B1A006456EA /* XGLConfigurationWindowController.h */; };
 		F4DFF8861AA39B1A006456EA /* XGLConfigurationWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DFF8841AA39B1A006456EA /* XGLConfigurationWindowController.m */; };
-		F4DFF88F1AA39F31006456EA /* XGLLightGrayBackgroundView.h in Headers */ = {isa = PBXBuildFile; fileRef = F4DFF88B1AA39F31006456EA /* XGLLightGrayBackgroundView.h */; };
-		F4DFF8901AA39F31006456EA /* XGLLightGrayBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DFF88C1AA39F31006456EA /* XGLLightGrayBackgroundView.m */; };
 		F4DFF8911AA39F31006456EA /* XGLSecondaryBox.h in Headers */ = {isa = PBXBuildFile; fileRef = F4DFF88D1AA39F31006456EA /* XGLSecondaryBox.h */; };
 		F4DFF8921AA39F31006456EA /* XGLSecondaryBox.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DFF88E1AA39F31006456EA /* XGLSecondaryBox.m */; };
 		F4DFF8961AA39F71006456EA /* XGLAboutBoxWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4DFF8931AA39F71006456EA /* XGLAboutBoxWindowController.h */; };
 		F4DFF8971AA39F71006456EA /* XGLAboutBoxWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DFF8941AA39F71006456EA /* XGLAboutBoxWindowController.m */; };
-		F4DFF8981AA39F71006456EA /* XGLAboutBoxWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4DFF8951AA39F71006456EA /* XGLAboutBoxWindowController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +44,8 @@
 		F473884315F7C4D3007DE8CD /* thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumbnail@2x.png"; sourceTree = "<group>"; };
 		F489C7651AA5A7C500768081 /* XGLUserDefaults+Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XGLUserDefaults+Constants.h"; sourceTree = "<group>"; };
 		F489C7661AA5A7C500768081 /* XGLUserDefaults+Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XGLUserDefaults+Constants.m"; sourceTree = "<group>"; };
+		F489E04E2137421A00D2665E /* XGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGLView.h; sourceTree = "<group>"; };
+		F489E04F2137421A00D2665E /* XGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGLView.m; sourceTree = "<group>"; };
 		F48BFD881ABA2EC3004053B3 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/XGLConfigurationWindowController.xib; sourceTree = "<group>"; };
 		F48BFD891ABA2EC3004053B3 /* ja */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F48BFD8A1ABA3977004053B3 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
@@ -53,6 +55,7 @@
 		F48BFD921ABA3996004053B3 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		F48BFD951ABA3A90004053B3 /* sv */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = sv; path = sv.lproj/XGLConfigurationWindowController.xib; sourceTree = "<group>"; };
 		F48BFD961ABA3A90004053B3 /* sv */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F496EF3C213896660076A882 /* XGLAboutBoxWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XGLAboutBoxWindowController.xib; sourceTree = "<group>"; };
 		F4DD288809A7BB6900824E1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4DD288909A7BB6900824E1D /* Xeverywhere.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Xeverywhere.saver; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4DF0F421AA6864E001ABB6E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/XGLConfigurationWindowController.xib; sourceTree = "<group>"; };
@@ -61,13 +64,10 @@
 		F4DF0F481AA6868B001ABB6E /* fr */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F4DFF8831AA39B1A006456EA /* XGLConfigurationWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGLConfigurationWindowController.h; sourceTree = "<group>"; };
 		F4DFF8841AA39B1A006456EA /* XGLConfigurationWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGLConfigurationWindowController.m; sourceTree = "<group>"; };
-		F4DFF88B1AA39F31006456EA /* XGLLightGrayBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGLLightGrayBackgroundView.h; sourceTree = "<group>"; };
-		F4DFF88C1AA39F31006456EA /* XGLLightGrayBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGLLightGrayBackgroundView.m; sourceTree = "<group>"; };
 		F4DFF88D1AA39F31006456EA /* XGLSecondaryBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGLSecondaryBox.h; sourceTree = "<group>"; };
 		F4DFF88E1AA39F31006456EA /* XGLSecondaryBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGLSecondaryBox.m; sourceTree = "<group>"; };
 		F4DFF8931AA39F71006456EA /* XGLAboutBoxWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGLAboutBoxWindowController.h; sourceTree = "<group>"; };
 		F4DFF8941AA39F71006456EA /* XGLAboutBoxWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGLAboutBoxWindowController.m; sourceTree = "<group>"; };
-		F4DFF8951AA39F71006456EA /* XGLAboutBoxWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XGLAboutBoxWindowController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,7 +167,7 @@
 				F4DF0F411AA6864E001ABB6E /* XGLConfigurationWindowController.xib */,
 				F4DFF8931AA39F71006456EA /* XGLAboutBoxWindowController.h */,
 				F4DFF8941AA39F71006456EA /* XGLAboutBoxWindowController.m */,
-				F4DFF8951AA39F71006456EA /* XGLAboutBoxWindowController.xib */,
+				F496EF3C213896660076A882 /* XGLAboutBoxWindowController.xib */,
 			);
 			name = Configuration;
 			sourceTree = "<group>";
@@ -175,8 +175,8 @@
 		F4DFF88A1AA39F03006456EA /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
-				F4DFF88B1AA39F31006456EA /* XGLLightGrayBackgroundView.h */,
-				F4DFF88C1AA39F31006456EA /* XGLLightGrayBackgroundView.m */,
+				F489E04E2137421A00D2665E /* XGLView.h */,
+				F489E04F2137421A00D2665E /* XGLView.m */,
 				F4DFF88D1AA39F31006456EA /* XGLSecondaryBox.h */,
 				F4DFF88E1AA39F31006456EA /* XGLSecondaryBox.m */,
 			);
@@ -199,8 +199,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4DFF8851AA39B1A006456EA /* XGLConfigurationWindowController.h in Headers */,
+				F489E0502137421A00D2665E /* XGLView.h in Headers */,
 				F489C7671AA5A7C500768081 /* XGLUserDefaults+Constants.h in Headers */,
-				F4DFF88F1AA39F31006456EA /* XGLLightGrayBackgroundView.h in Headers */,
 				F4DFF8961AA39F71006456EA /* XGLAboutBoxWindowController.h in Headers */,
 				F4DFF8911AA39F31006456EA /* XGLSecondaryBox.h in Headers */,
 			);
@@ -265,7 +265,7 @@
 			files = (
 				F4DF0F461AA6866E001ABB6E /* Localizable.strings in Resources */,
 				F4DF0F431AA6864E001ABB6E /* XGLConfigurationWindowController.xib in Resources */,
-				F4DFF8981AA39F71006456EA /* XGLAboutBoxWindowController.xib in Resources */,
+				F496EF3D213896660076A882 /* XGLAboutBoxWindowController.xib in Resources */,
 				F4086CDA15432CC500B0D535 /* thumbnail.png in Resources */,
 				F473884415F7C4D3007DE8CD /* thumbnail@2x.png in Resources */,
 			);
@@ -278,8 +278,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4DFF8901AA39F31006456EA /* XGLLightGrayBackgroundView.m in Sources */,
 				F4DFF8921AA39F31006456EA /* XGLSecondaryBox.m in Sources */,
+				F489E0512137421A00D2665E /* XGLView.m in Sources */,
 				F4DD287D09A7BB6900824E1D /* XGLEverywhereView.m in Sources */,
 				F4DFF8971AA39F71006456EA /* XGLAboutBoxWindowController.m in Sources */,
 				F489C7681AA5A7C500768081 /* XGLUserDefaults+Constants.m in Sources */,
@@ -329,7 +329,7 @@
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 12;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
@@ -353,7 +353,7 @@
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 12;
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_OPTIMIZATION_LEVEL = 3;
