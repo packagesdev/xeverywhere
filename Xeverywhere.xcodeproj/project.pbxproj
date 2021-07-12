@@ -17,6 +17,8 @@
 		F48BFD8D1ABA397D004053B3 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F48BFD8C1ABA397D004053B3 /* ScreenSaver.framework */; };
 		F48BFD8F1ABA3982004053B3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F48BFD8E1ABA3982004053B3 /* Cocoa.framework */; };
 		F496EF3D213896660076A882 /* XGLAboutBoxWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F496EF3C213896660076A882 /* XGLAboutBoxWindowController.xib */; };
+		F4CD5C2C21C312DE0037D561 /* NSColor+LabelColor.h in Headers */ = {isa = PBXBuildFile; fileRef = F4CD5C2A21C312DE0037D561 /* NSColor+LabelColor.h */; };
+		F4CD5C2D21C312DE0037D561 /* NSColor+LabelColor.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CD5C2B21C312DE0037D561 /* NSColor+LabelColor.m */; };
 		F4DD287D09A7BB6900824E1D /* XGLEverywhereView.m in Sources */ = {isa = PBXBuildFile; fileRef = 011787A4FFB612FBC0A80002 /* XGLEverywhereView.m */; settings = {ATTRIBUTES = (); }; };
 		F4DD287E09A7BB6900824E1D /* xGLeverywhere.c in Sources */ = {isa = PBXBuildFile; fileRef = 011787A5FFB612FBC0A80002 /* xGLeverywhere.c */; settings = {ATTRIBUTES = (); COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F4DF0F431AA6864E001ABB6E /* XGLConfigurationWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4DF0F411AA6864E001ABB6E /* XGLConfigurationWindowController.xib */; };
@@ -56,6 +58,8 @@
 		F48BFD951ABA3A90004053B3 /* sv */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = sv; path = sv.lproj/XGLConfigurationWindowController.xib; sourceTree = "<group>"; };
 		F48BFD961ABA3A90004053B3 /* sv */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F496EF3C213896660076A882 /* XGLAboutBoxWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XGLAboutBoxWindowController.xib; sourceTree = "<group>"; };
+		F4CD5C2A21C312DE0037D561 /* NSColor+LabelColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+LabelColor.h"; sourceTree = "<group>"; };
+		F4CD5C2B21C312DE0037D561 /* NSColor+LabelColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+LabelColor.m"; sourceTree = "<group>"; };
 		F4DD288809A7BB6900824E1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4DD288909A7BB6900824E1D /* Xeverywhere.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Xeverywhere.saver; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4DF0F421AA6864E001ABB6E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/XGLConfigurationWindowController.xib; sourceTree = "<group>"; };
@@ -161,6 +165,8 @@
 		F4DFF8891AA39EFB006456EA /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
+				F4CD5C2A21C312DE0037D561 /* NSColor+LabelColor.h */,
+				F4CD5C2B21C312DE0037D561 /* NSColor+LabelColor.m */,
 				F4DFF88A1AA39F03006456EA /* Custom Views */,
 				F4DFF8831AA39B1A006456EA /* XGLConfigurationWindowController.h */,
 				F4DFF8841AA39B1A006456EA /* XGLConfigurationWindowController.m */,
@@ -200,6 +206,7 @@
 			files = (
 				F4DFF8851AA39B1A006456EA /* XGLConfigurationWindowController.h in Headers */,
 				F489E0502137421A00D2665E /* XGLView.h in Headers */,
+				F4CD5C2C21C312DE0037D561 /* NSColor+LabelColor.h in Headers */,
 				F489C7671AA5A7C500768081 /* XGLUserDefaults+Constants.h in Headers */,
 				F4DFF8961AA39F71006456EA /* XGLAboutBoxWindowController.h in Headers */,
 				F4DFF8911AA39F31006456EA /* XGLSecondaryBox.h in Headers */,
@@ -279,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4DFF8921AA39F31006456EA /* XGLSecondaryBox.m in Sources */,
+				F4CD5C2D21C312DE0037D561 /* NSColor+LabelColor.m in Sources */,
 				F489E0512137421A00D2665E /* XGLView.m in Sources */,
 				F4DD287D09A7BB6900824E1D /* XGLEverywhereView.m in Sources */,
 				F4DFF8971AA39F71006456EA /* XGLAboutBoxWindowController.m in Sources */,
